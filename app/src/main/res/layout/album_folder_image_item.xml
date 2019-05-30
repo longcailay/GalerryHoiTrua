@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumActivity">
+
+    <ImageView
+        android:id="@+id/imageAlbumFolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/nameAlbumFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageAlbumFolder"
+        android:layout_alignStart="@+id/imageAlbumFolder"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="#66000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:lines="2"/>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "925422820262",
+    "firebase_url": "https://fitsealbum-master.firebaseio.com",
+    "project_id": "fitsealbum-master",
+    "storage_bucket": "fitsealbum-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925422820262:android:41a8353660009852",
+        "android_client_info": {
+          "package_name": "com.example.a8560p.fitsealbum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925422820262-0fnhjjb99ff799f54afne633g1f9ofkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a8560p.fitsealbum",
+            "certificate_hash": "72e791cfa3595edac1b91e9c6b659b52aab7e591"
+          }
+        },
+        {
+          "client_id": "925422820262-uv942akndetfqgvgc3t8i6si229kaosp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYq5kuWW-6KCyJqKcbEXf0VBkMPWJd2EU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925422820262-uv942akndetfqgvgc3t8i6si229kaosp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925422820262:android:679b51ec807e2b16",
+        "android_client_info": {
+          "package_name": "hcmus.mdsd.fitsealbum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925422820262-80o00djiukrfml55qm6aptq3btp7amaj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hcmus.mdsd.fitsealbum",
+            "certificate_hash": "72e791cfa3595edac1b91e9c6b659b52aab7e591"
+          }
+        },
+        {
+          "client_id": "925422820262-25dso57o7usnhj74fau2ie7csfpbf2s5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hcmus.mdsd.fitsealbum",
+            "certificate_hash": "871ed6e1f7748e2ae32e8022dee46cc0e6079690"
+          }
+        },
+        {
+          "client_id": "925422820262-uv942akndetfqgvgc3t8i6si229kaosp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYq5kuWW-6KCyJqKcbEXf0VBkMPWJd2EU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925422820262-uv942akndetfqgvgc3t8i6si229kaosp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

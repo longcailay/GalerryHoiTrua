@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundColor"
+    tools:context=".NightmodeActivity">
+    <RadioGroup
+        android:id="@+id/rad_Nightmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/radNM_Off"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Off"
+            android:textColor="?attr/textColor"
+            android:textSize="20sp"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio" />
+        <RadioButton
+            android:id="@+id/radNM_On"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="On"
+            android:textColor="?attr/textColor"
+            android:textSize="20sp"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio" />
+        <RadioButton
+            android:id="@+id/radNM_Auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Auto"
+            android:textColor="?attr/textColor"
+            android:textSize="20sp"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio" />
+        <RadioButton
+            android:id="@+id/radNM_Option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Option"
+            android:textColor="?attr/textColor"
+            android:textSize="20sp"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Option: Activate between "
+            android:textColor="?attr/tintColor"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/txt_timeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="?attr/tintColor"
+            android:textSize="17sp"
+            android:clickable="true"
+            android:onClick="SetTimeStart"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "
+            android:textColor="?attr/tintColor"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/txt_timeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="?attr/tintColor"
+            android:textSize="17sp"
+            android:clickable="true"
+            android:onClick="SetTimeEnd"/>
+    </LinearLayout>
+</LinearLayout>
